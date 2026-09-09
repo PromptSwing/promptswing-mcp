@@ -1,0 +1,33 @@
+# PromptSwing
+
+> Publish a site your AI built to live hosting, then keep editing it: an MCP server for landing a store, reading it back, changing a page, and restoring any earlier version.
+
+PromptSwing hosts storefronts that AI assistants build. Connect over MCP, land the files your assistant generated, and the store is live on its own address. From then on you can read it back, change one page without touching the rest, and restore any earlier version in a call — plus its catalogue, its orders, its reviews and its record, from the same conversation. Cart recovery, reviews and order signals run wherever the site calls the documented signal endpoints — assess_site reports which of those calls are missing before you land. Hosting is a paid subscription.
+
+## What it does
+
+- Land a site your assistant built onto live hosting (land_site).
+- Read the live site back, so an edit changes what is there rather than replacing it (read_site).
+- Add, change or delete ONE page without touching the rest (add_page, update_page, delete_page).
+- Publish as a patch that cannot delete what it was not shown, or as a full replace that names every file it would drop.
+- Restore any earlier version in one call — every publish is kept (revert_site).
+- Read and write the catalogue (get_product, add_product, update_product).
+- Read what sold, what customers said, and what changed and when (get_orders, get_reviews, get_record).
+- Check before you land: which documented signal calls are missing, which contrast pairs fail, whether prices are hardcoded (assess_site).
+
+## What it requires
+
+- Hosting requires an active PromptSwing subscription. A connector is a surface, never a way to get a store without buying one.
+- A landed page emits signals only where its own call sites exist. PromptSwing injects the library; whether the page calls it is the author's choice, and assess_site reports which calls are absent.
+
+## Endpoints that need no account
+
+- POST https://api.promptswing.com/api/assess — check a site before publishing it. Keeps nothing.
+- GET  https://api.promptswing.com/api/shelf?q= — search hosted stores.
+- POST https://api.promptswing.com/api/buy/quote — price an order. Reserves nothing.
+- Contract: https://api.promptswing.com/.well-known/openapi.json
+
+## MCP
+
+- https://api.promptswing.com/api/connector
+- Revisions: 2025-06-18, 2025-03-26, 2024-11-05

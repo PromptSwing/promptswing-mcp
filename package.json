@@ -1,0 +1,44 @@
+{
+  "name": "@promptswing/mcp",
+  "version": "0.1.0",
+  "description": "Publish a site your AI built to live hosting, then keep editing it: an MCP server for landing a store, reading it back, changing a page, and restoring any earlier version.",
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "ai-agent",
+    "claude",
+    "website-hosting",
+    "ecommerce",
+    "storefront",
+    "static-site-hosting",
+    "ai-website-builder",
+    "publish",
+    "deploy",
+    "commerce",
+    "shopping-cart",
+    "stripe",
+    "llm-tools",
+    "agent-tools"
+  ],
+  "homepage": "https://www.promptswing.com/publish-from-your-ai",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/promptswing/promptswing-mcp.git"
+  },
+  "bugs": {
+    "url": "https://www.promptswing.com/contact"
+  },
+  "license": "Apache-2.0",
+  "author": "Bergen Ridge LLC",
+  "type": "module",
+  "files": [
+    "README.md",
+    "server.json",
+    "examples"
+  ],
+  "mcp": {
+    "url": "https://api.promptswing.com/api/connector",
+    "transport": "streamable-http"
+  }
+}
