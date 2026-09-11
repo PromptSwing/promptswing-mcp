@@ -80,7 +80,7 @@ contract is at
 |---|---|
 | `POST /api/assess` | Check a site before publishing it anywhere. Keeps nothing. |
 | `GET /api/shelf?q=` | Search products across hosted stores. |
-| `POST /api/buy/quote` | Price an order from one of them. Reserves nothing. |
+| `POST /api/buy/quote` | Price an order from one of them. Reserves nothing. **It cannot yet be paid for through this path** — buy on the store's own checkout. |
 
 ## Links
 

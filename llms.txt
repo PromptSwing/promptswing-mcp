@@ -24,7 +24,7 @@ PromptSwing hosts storefronts that AI assistants build. Connect over MCP, land t
 
 - POST https://api.promptswing.com/api/assess — check a site before publishing it. Keeps nothing.
 - GET  https://api.promptswing.com/api/shelf?q= — search hosted stores.
-- POST https://api.promptswing.com/api/buy/quote — price an order. Reserves nothing.
+- POST https://api.promptswing.com/api/buy/quote — price an order. Reserves nothing. It cannot yet be paid for through this path; buy on the store's own checkout.
 - Contract: https://api.promptswing.com/.well-known/openapi.json
 
 ## MCP
