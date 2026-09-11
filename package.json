@@ -38,7 +38,8 @@
   "files": [
     "README.md",
     "server.json",
-    "examples"
+    "examples",
+    "NOTICE"
   ],
   "mcp": {
     "url": "https://api.promptswing.com/api/connector",
