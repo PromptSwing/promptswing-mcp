@@ -19,7 +19,10 @@
     "shopping-cart",
     "stripe",
     "llm-tools",
-    "agent-tools"
+    "agent-tools",
+    "ecommerce-website",
+    "web-hosting",
+    "website-builder"
   ],
   "homepage": "https://www.promptswing.com/publish-from-your-ai",
   "repository": {
