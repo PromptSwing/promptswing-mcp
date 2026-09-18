@@ -23,7 +23,48 @@ PromptSwing hosts storefronts that AI assistants build. Connect over MCP, land t
 ## Connect
 
 PromptSwing runs a **remote** MCP server. There is nothing to install and nothing
-to run locally. A merchant authorises it from their own PromptSwing account.
+to run locally. A merchant authorizes it from their own PromptSwing account, in a
+browser, and the app is authorized — never a model.
+
+**Claude** (desktop and claude.ai) — add a custom connector with this URL:
+
+    https://api.promptswing.com/api/connector
+
+**VS Code with GitHub Copilot** — add it as an HTTP MCP server in `settings.json`:
+
+```json
+{
+  "mcp": {
+    "servers": {
+      "promptswing": {
+        "type": "http",
+        "url": "https://api.promptswing.com/api/connector"
+      }
+    }
+  }
+}
+```
+
+In a workspace `mcp.json` the same entry goes in without the outer `"mcp"` key.
+
+VS Code releases before 1.101 do not read a client metadata document and cannot
+sign in; updating VS Code fixes it.
+
+**Cursor desktop** — Cursor publishes no client document of its own, so name the
+one PromptSwing hosts for it in `mcp.json`:
+
+```json
+{
+  "mcpServers": {
+    "promptswing": {
+      "url": "https://api.promptswing.com/api/connector",
+      "auth": { "CLIENT_ID": "https://app.promptswing.com/oauth/clients/cursor.json" }
+    }
+  }
+}
+```
+
+**Any other client** takes the plain server entry:
 
 ```json
 {
@@ -35,7 +76,11 @@ to run locally. A merchant authorises it from their own PromptSwing account.
 }
 ```
 
-Authorisation is OAuth 2.1 with PKCE, discovered through RFC 9728 protected-resource
+Each app above was observed connecting and calling tools. **Cursor's cloud agents
+and its browser drop the client id and cannot sign in**, and no app outside this
+list has been observed connecting.
+
+Authorization is OAuth 2.1 with PKCE, discovered through RFC 9728 protected-resource
 metadata at:
 
     https://api.promptswing.com/.well-known/oauth-protected-resource/api/connector
@@ -45,7 +90,7 @@ Protocol revisions supported: 2025-06-18, 2025-03-26, 2024-11-05.
 ## Before you connect anything — a free check
 
 If you have just built a site and want to know what happens when it goes live,
-you can ask without an account, an authorisation or a payment:
+you can ask without an account, an authorization or a payment:
 
 ```bash
 curl -X POST https://api.promptswing.com/api/assess \
@@ -72,7 +117,7 @@ A worked example of each is in [`examples/`](./examples):
 
 ## The public endpoints
 
-Three surfaces need no client, no account and no authorisation. The full
+Three surfaces need no client, no account and no authorization. The full
 contract is at
 [`/.well-known/openapi.json`](https://api.promptswing.com/.well-known/openapi.json).
 

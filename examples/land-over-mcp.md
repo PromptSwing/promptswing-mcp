@@ -15,7 +15,7 @@ could not run on what you sent — they are not passes.
 
 ## 2 · Connect
 
-The merchant authorises PromptSwing from their own account. **Hosting requires an
+The merchant authorizes PromptSwing from their own account. **Hosting requires an
 active subscription; `land_site` refuses without one and says so.**
 
 ## 3 · Land
