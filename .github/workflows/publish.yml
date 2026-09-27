@@ -1,0 +1,23 @@
+# Publishes @promptswing/mcp to npm when a version tag (v*) is pushed, through npm's trusted publishing (OIDC):
+# no npm token is stored anywhere. Needs, once, on npmjs.com → the package → Settings → Trusted publishing:
+# GitHub Actions · repository PromptSwing/promptswing-mcp · workflow publish.yml.
+name: publish
+on:
+  push:
+    tags: ['v*']
+permissions:
+  contents: read
+  id-token: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          registry-url: 'https://registry.npmjs.org'
+      - run: npm install -g npm@latest
+      - name: The tag names the version being published
+        run: test "v$(node -p "require('./package.json').version")" = "${GITHUB_REF_NAME}"
+      - run: npm publish --access public --provenance
