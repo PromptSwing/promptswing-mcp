@@ -13,6 +13,7 @@ PromptSwing hosts storefronts that AI assistants build. Connect over MCP, land t
 - Restore any earlier version in one call — every publish is kept (revert_site).
 - Read and write the catalogue (get_product, add_product, update_product).
 - Read what sold, what customers said, and what changed and when (get_orders, get_reviews, get_record).
+- Read the store's own insights, whether it is live, and its front-page sections (get_insights, check_status, get_sections).
 - Check before you land: which documented signal calls are missing, which contrast pairs fail, whether prices are hardcoded (assess_site).
 
 ## What it requires
