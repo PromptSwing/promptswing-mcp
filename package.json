@@ -27,7 +27,7 @@
   "homepage": "https://www.promptswing.com/publish-from-your-ai",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/promptswing/promptswing-mcp.git"
+    "url": "git+https://github.com/PromptSwing/promptswing-mcp.git"
   },
   "bugs": {
     "url": "https://www.promptswing.com/contact"
