@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.2 — 2026-09-27
+
+- FOUND BY AI: score any website free for how AI search and agents read it; the full audit ($0.01), fixes ($0.02)
+  and re-measure ($0.01) are bought per call over x402 with no account — on the Base Sepolia test network until
+  the live rail is configured. `GET https://api.promptswing.com/api/found`.
+
 ## 0.1.1 — 2026-09-27
 
 - Connect section names the apps observed connecting: Claude, VS Code with GitHub Copilot, and Cursor desktop.
