@@ -13,7 +13,7 @@ PromptSwing hosts storefronts that AI assistants build. Connect over MCP, land t
 - Restore any earlier version in one call — every publish is kept (revert_site).
 - Read and write the catalogue (get_product, add_product, update_product).
 - Read what sold, what customers said, and what changed and when (get_orders, get_reviews, get_record).
-- Read the store's own insights, whether it is live, and its front-page sections (get_insights, check_status, get_sections).
+- Read the store's own insights (on a plan that includes them), whether it is live, and its front-page sections (get_insights, check_status, get_sections).
 - Check before you land: which documented signal calls are missing, which contrast pairs fail, whether prices are hardcoded (assess_site).
 - Score any website free for how AI search engines and AI agents read it, then buy the full audit ($0.01), ready-to-paste fixes ($0.02) or a re-measure ($0.01) per call over x402, with no account (GET https://api.promptswing.com/api/found).
 
@@ -22,6 +22,7 @@ PromptSwing hosts storefronts that AI assistants build. Connect over MCP, land t
 - Hosting requires an active PromptSwing subscription. A connector is a surface, never a way to get a store without buying one.
 - A landed page emits signals only where its own call sites exist. PromptSwing injects the library; whether the page calls it is the author's choice, and assess_site reports which calls are absent.
 - FOUND BY AI's paid calls run on the Base Sepolia test network until the live rail is configured; no payment has yet settled on chain. The free score works now.
+- This server does not reach Captain, PromptSwing's own AI. Captain builds a store and changes it when its owner asks, on a Captain plan, from the Captain app.
 
 ## Connect
 
