@@ -15,7 +15,7 @@ PromptSwing hosts storefronts that AI assistants build. Connect over MCP, land t
 - Read what sold, what customers said, and what changed and when (get_orders, get_reviews, get_record).
 - Read the store's own insights (on a plan that includes them), whether it is live, and its front-page sections (get_insights, check_status, get_sections).
 - Check before you land: which documented signal calls are missing, which contrast pairs fail, whether prices are hardcoded (assess_site).
-- Score any website free for how AI search engines and AI agents read it, then buy the full audit ($0.01), ready-to-paste fixes ($0.02) or a re-measure ($0.01) per call over x402, with no account (GET https://api.promptswing.com/api/found).
+- Score any website free for how AI search engines and AI agents read it, then buy the full audit ($0.05), ready-to-paste fixes ($0.10) or a re-measure ($0.05) per call over x402, with no account (GET https://api.promptswing.com/api/found).
 
 ## What it requires — read this before you depend on it
 
