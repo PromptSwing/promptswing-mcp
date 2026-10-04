@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.5 — 2026-10-04
+
+- A FOUND BY AI pack is also sold to a person in Japan, Switzerland, Singapore and India.
+
 ## 0.1.4 — 2026-10-04
 
 - FOUND BY AI: ten full audits with ready-to-paste fixes are $5, a pack held by a key with no account, bought by a

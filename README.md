@@ -23,7 +23,7 @@ PromptSwing hosts storefronts that AI assistants build. Connect over MCP, land t
 - A landed page emits signals only where its own call sites exist. PromptSwing injects the library; whether the page calls it is the author's choice, and assess_site reports which calls are absent.
 - FOUND BY AI's pack ($5 for ten audits) is bought by a person, by card through Paddle, at https://app.promptswing.com/found. An AI agent cannot buy one yet. The free score works now.
 - This server does not reach Captain, PromptSwing's own AI. Captain builds a store and changes it when its owner asks, on a Captain plan, from the Captain app.
-- PromptSwing is offered in the United States (with its territories), Canada except Quebec, Australia and New Zealand. An account, a plan, a FOUND BY AI monitor or a FOUND BY AI pack is not sold elsewhere.
+- PromptSwing is offered in the United States (with its territories), Canada except Quebec, Australia and New Zealand. An account, a plan, a FOUND BY AI monitor or a FOUND BY AI pack is not sold elsewhere, except that a FOUND BY AI pack is also sold in Japan, Switzerland, Singapore and India.
 
 ## Connect
 
