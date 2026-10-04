@@ -15,15 +15,15 @@ PromptSwing hosts storefronts that AI assistants build. Connect over MCP, land t
 - Read what sold, what customers said, and what changed and when (get_orders, get_reviews, get_record).
 - Read the store's own insights (on a plan that includes them), whether it is live, and its front-page sections (get_insights, check_status, get_sections).
 - Check before you land: which documented signal calls are missing, which contrast pairs fail, whether prices are hardcoded (assess_site).
-- Score any website free for how AI search engines and AI agents read it, then buy the full audit ($0.05), ready-to-paste fixes ($0.10) or a re-measure ($0.05) per call over x402, with no account (GET https://api.promptswing.com/api/found).
+- Score any website free for how AI search engines and AI agents read it, at https://www.promptswing.com/found or GET https://api.promptswing.com/api/found; ten full audits with ready-to-paste fixes are $5, a pack held by a key with no account.
 
 ## What it requires — read this before you depend on it
 
 - Hosting requires an active PromptSwing subscription. A connector is a surface, never a way to get a store without buying one.
 - A landed page emits signals only where its own call sites exist. PromptSwing injects the library; whether the page calls it is the author's choice, and assess_site reports which calls are absent.
-- FOUND BY AI's paid calls run on the Base Sepolia test network until the live rail is configured; no payment has yet settled on chain. The free score works now.
+- FOUND BY AI's pack ($5 for ten audits) is bought by a person, by card through Paddle, at https://app.promptswing.com/found. An AI agent cannot buy one yet. The free score works now.
 - This server does not reach Captain, PromptSwing's own AI. Captain builds a store and changes it when its owner asks, on a Captain plan, from the Captain app.
-- PromptSwing is offered in the United States (with its territories), Canada except Quebec, Australia and New Zealand. An account, a plan or a FOUND BY AI monitor is not sold elsewhere.
+- PromptSwing is offered in the United States (with its territories), Canada except Quebec, Australia and New Zealand. An account, a plan, a FOUND BY AI monitor or a FOUND BY AI pack is not sold elsewhere.
 
 ## Connect
 

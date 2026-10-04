@@ -1,6 +1,6 @@
 {
   "name": "@promptswing/mcp",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Publish a site your AI built to live hosting, then keep editing it: an MCP server for landing a store, reading it back, changing a page, and restoring any earlier version.",
   "keywords": [
     "mcp",

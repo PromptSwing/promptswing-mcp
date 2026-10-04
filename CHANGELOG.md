@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.4 — 2026-10-04
+
+- FOUND BY AI: ten full audits with ready-to-paste fixes are $5, a pack held by a key with no account, bought by a
+  person by card through Paddle at https://app.promptswing.com/found. The per-call payment over x402 is removed.
+  An AI agent cannot buy a pack yet. The free score is unchanged: `GET https://api.promptswing.com/api/found`.
+- States where PromptSwing is offered: the United States (with its territories), Canada except Quebec,
+  Australia and New Zealand.
+
 ## 0.1.2 — 2026-09-27
 
 - FOUND BY AI: score any website free for how AI search and agents read it; the full audit ($0.01), fixes ($0.02)
