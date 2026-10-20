@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.1.6 — 2026-10-20
+
+- The description now leads with Captain: an AI that builds your business website, hosts it and helps you run the
+  business behind it — and the MCP server that publishes a site your own AI built.
+- Offered in the United States (with its territories) except Connecticut, Canada except Quebec, Australia,
+  New Zealand, Japan, Switzerland, Singapore and India — an account and a plan, not only a FOUND BY AI pack.
+- A FOUND BY AI pack is bought by card through Stripe; Paddle is no longer used.
+- Capabilities name three more reads: abandoned carts, revenue loss findings and where orders come from
+  (`get_abandoned_carts`, `get_revenue_loss`, `get_buyer_sources`), on a plan that includes each.
+
 ## 0.1.5 — 2026-10-04
 
 - A FOUND BY AI pack is also sold to a person in Japan, Switzerland, Singapore and India.
@@ -9,7 +19,7 @@
 - FOUND BY AI: ten full audits with ready-to-paste fixes are $5, a pack held by a key with no account, bought by a
   person by card through Paddle at https://app.promptswing.com/found. The per-call payment over x402 is removed.
   An AI agent cannot buy a pack yet. The free score is unchanged: `GET https://api.promptswing.com/api/found`.
-- States where PromptSwing is offered: the United States (with its territories), Canada except Quebec,
+- States where PromptSwing is offered: the United States (with its territories) except Connecticut, Canada except Quebec,
   Australia and New Zealand.
 
 ## 0.1.2 — 2026-09-27

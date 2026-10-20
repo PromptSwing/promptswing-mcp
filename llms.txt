@@ -1,8 +1,8 @@
 # PromptSwing
 
-> Publish a site your AI built to live hosting, then keep editing it: an MCP server for landing a store, reading it back, changing a page, and restoring any earlier version.
+> An AI that builds your business website, hosts it and helps you run the business behind it — and an MCP server that publishes a site your own AI built, reads it back, changes a page and restores any earlier version.
 
-PromptSwing hosts storefronts that AI assistants build. Connect over MCP, land the files your assistant generated, and the store is live on its own address. From then on you can read it back, change one page without touching the rest, and restore any earlier version in a call — plus its catalogue, its orders, its reviews and its record, from the same conversation. Cart recovery, reviews and order signals run wherever the site calls the documented signal endpoints — assess_site reports which of those calls are missing before you land. Hosting is a paid subscription.
+Captain is an AI a business owner talks to like a person. It builds the website in a conversation, hosts it on its own address and changes it whenever the owner asks, then helps run the business behind it: products and stock, orders, shipping, pickup and delivery, bookings, a point of sale, reviews, abandoned carts, social posts, research and writing, and the files, photos and links the owner sends it. A site your own AI built can be hosted here too: connect over MCP, land the files your assistant generated, and the store is live on its own address. From then on you can read it back, change one page without touching the rest, and restore any earlier version in a call — plus its catalogue, its orders, its reviews and its record, from the same conversation. Cart recovery, reviews and order signals run wherever the site calls the documented signal endpoints — assess_site reports which of those calls are missing before you land. Hosting is a paid subscription.
 
 ## What it does
 
@@ -21,9 +21,9 @@ PromptSwing hosts storefronts that AI assistants build. Connect over MCP, land t
 
 - Hosting requires an active PromptSwing subscription. A connector is a surface, never a way to get a store without buying one.
 - A landed page emits signals only where its own call sites exist. PromptSwing injects the library; whether the page calls it is the author's choice, and assess_site reports which calls are absent.
-- FOUND BY AI's pack ($5 for ten audits) is bought by a person, by card through Paddle, at https://app.promptswing.com/found. An AI agent cannot buy one yet. The free score works now.
+- FOUND BY AI's pack ($5 for ten audits) is bought by a person, by card through Stripe, at https://app.promptswing.com/found. An AI agent cannot buy one yet. The free score works now.
 - This server does not reach Captain, PromptSwing's own AI. Captain builds a store and changes it when its owner asks, on a Captain plan, from the Captain app.
-- PromptSwing is offered in the United States (with its territories), Canada except Quebec, Australia and New Zealand. An account, a plan, a FOUND BY AI monitor or a FOUND BY AI pack is not sold elsewhere, except that a FOUND BY AI pack is also sold in Japan, Switzerland, Singapore and India.
+- PromptSwing is offered in the United States (with its territories) except Connecticut, Canada except Quebec, Australia, New Zealand, Japan, Switzerland, Singapore and India. An account, a plan, a FOUND BY AI monitor or a FOUND BY AI pack is not sold elsewhere.
 
 ## Endpoints that need no account
 
