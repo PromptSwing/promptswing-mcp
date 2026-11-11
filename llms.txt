@@ -13,6 +13,7 @@ Captain is an AI a business owner talks to like a person. It builds the website 
 - Restore any earlier version in one call — every publish is kept (revert_site).
 - Read and write the catalogue (get_product, add_product, update_product).
 - Read what sold, what customers said, and what changed and when (get_orders, get_reviews, get_record).
+- Talk to the store's Captain from your own AI: start a message with "Captain" (ask_captain).
 - Read the store's own insights (on a plan that includes them), whether it is live, and its front-page sections (get_insights, check_status, get_sections).
 - Check before you land: which documented signal calls are missing, which contrast pairs fail, whether prices are hardcoded (assess_site).
 - Score any website free for how AI search engines and AI agents read it, at https://www.promptswing.com/found or GET https://api.promptswing.com/api/found; ten full audits with ready-to-paste fixes are $5, a pack held by a key with no account.
@@ -22,7 +23,7 @@ Captain is an AI a business owner talks to like a person. It builds the website 
 - Hosting requires an active PromptSwing subscription. A connector is a surface, never a way to get a store without buying one.
 - A landed page emits signals only where its own call sites exist. PromptSwing injects the library; whether the page calls it is the author's choice, and assess_site reports which calls are absent.
 - FOUND BY AI's pack ($5 for ten audits) is bought by a person, by card through Stripe, at https://app.promptswing.com/found. An AI agent cannot buy one yet. The free score works now.
-- This server does not reach Captain, PromptSwing's own AI. Captain builds a store and changes it when its owner asks, on a Captain plan, from the Captain app.
+- Captain, PromptSwing's own AI, is reached through one tool, ask_captain, on a Captain plan (Captain Base or Captain Complete) once Captain is set up, and only when the owner grants "Talk to Captain for you". Start a message with "Captain" and it answers in the same conversation as the Captain app. A step that moves money is confirmed in the Captain app, never through this server.
 - PromptSwing is offered in the United States (with its territories) except Connecticut, Canada except Quebec, Australia, New Zealand, Japan, Switzerland, Singapore, India and South Africa. An account, a plan, a FOUND BY AI monitor or a FOUND BY AI pack is not sold elsewhere.
 
 ## Endpoints that need no account

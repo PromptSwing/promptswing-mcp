@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.7 — 2026-11-11
+
+- Every tool now declares all four hints: read-only, destructive, idempotent and open-world.
+- The registry's short description is rewritten: paid hosting for a site your AI built, then your AI has the
+  controls — pages, orders, stock and the rest.
+
 ## 0.1.6 — 2026-10-20
 
 - The description now leads with Captain: an AI that builds your business website, hosts it and helps you run the
