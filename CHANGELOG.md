@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.8 — 2026-11-24
+
+- The registry's short description leads with Captain: a paid AI that builds, hosts and runs your business
+  site, and your own AI connects to it over MCP.
+
 ## 0.1.7 — 2026-11-11
 
 - Every tool now declares all four hints: read-only, destructive, idempotent and open-world.

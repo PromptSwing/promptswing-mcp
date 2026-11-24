@@ -1,6 +1,6 @@
 {
   "name": "@promptswing/mcp",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "An AI that builds your business website, hosts it and helps you run the business behind it — and an MCP server that publishes a site your own AI built, reads it back, changes a page and restores any earlier version.",
   "keywords": [
     "mcp",

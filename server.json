@@ -1,8 +1,8 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "com.promptswing/ecommerce-website-hosting-ai-business-intelligence",
-  "description": "Paid hosting for a site your AI built. Your AI then has the controls: pages, orders, stock, etc.",
-  "version": "0.1.7",
+  "description": "Captain, a paid AI that builds, hosts and runs your business site. Your own AI connects over MCP.",
+  "version": "0.1.8",
   "websiteUrl": "https://www.promptswing.com/publish-from-your-ai",
   "remotes": [
     {
